@@ -1,25 +1,30 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/navigation/Footer'
-// import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import TodoList from './components/pages/TodoList';
+import Home from './components/pages/Home';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import useAlan from './components/Alan/useAlan'
 
 
 function App() {
+
+  useAlan()
+  
   return (
     <div className="App">
-      {/* <div className="content-wrap">
+      <div className="content-wrap">
         <Router>
-          <Navbar />
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route path='/skills' component={Skills} />
-            <Route path='/projects' component={Projects} />
+            <Route path='/todolist' component={TodoList} />
+            {/* <Route path='/projects' component={Projects} />
             <Route path="/achievements" component={Achievements} />
             <Route path="/experience" component={Experience} />
-            <Route path="/contact" component={Contact} />
+            <Route path="/contact" component={Contact} /> */}
           </Switch>
         </Router>
-        </div> */}
+        </div>
         <Footer />
     </div>
   );
