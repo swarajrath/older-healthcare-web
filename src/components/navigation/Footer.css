@@ -3,10 +3,11 @@ footer {
   position: fixed;
   width: 100%;
   background-color: #263238;
-  height: 60px;
+  height: 50px;
   padding: 20px;
   left: 0;
   bottom: 0;
+  border-radius: 30px;
 }
 
 .foote_bottom_ul_amrc {

@@ -7,11 +7,11 @@ const Footer = () => {
             <footer className="footer">
                 <div className="container">
                     <ul className="foote_bottom_ul_amrc">
-                        <li><a href="/home"><i className="fab fa-facebook-f"></i></a></li>
-                        <li><a href="/todolist"><i className="fab fa-github"></i></a></li>
-                        <li><a href="/projects"><i className="fab fa-linkedin"></i></a></li>
-                        <li><a href="/achievements"><i className="fas fa-envelope-open"></i></a></li>
-                        <li><a href="/contact"><i className="fas fa-envelope-open"></i></a></li>
+                        <li><a href="/"><i className="fas fa-home"></i></a></li>
+                        <li><a href="/todopage"><i className="fas fa-tasks"></i></a></li>
+                        <li><a href="/profile"><i className="fas fa-users"></i></a></li>
+                        {/* <li><a href="/achievements"><i className="fas fa-envelope-open"></i></a></li>
+                        <li><a href="/contact"><i className="fas fa-envelope-open"></i></a></li> */}
                     </ul>
                     
                 </div>

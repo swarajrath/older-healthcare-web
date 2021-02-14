@@ -1,0 +1,7 @@
+[
+    {date : "10-10-2020", bloodPressure: "80 - 120"},
+    {date : "10-10-2020", bloodPressure: "80 - 120"},
+    {date : "10-10-2020", bloodPressure: "80 - 120"},
+    {date : "10-10-2020", bloodPressure: "80 - 120"},
+    {date : "10-10-2020", bloodPressure: "80 - 120"}
+] 

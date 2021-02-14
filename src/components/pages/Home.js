@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { RiHeartPulseFill } from 'react-icons/ri'
-import {GiHeartOrgan} from 'react-icons/gi'
+import { GiHeartOrgan, GiRunningShoe } from 'react-icons/gi'
 import './Home.css'
 
 export default class Home extends Component {
@@ -47,6 +47,39 @@ export default class Home extends Component {
                         </div>
                         <div className="belowCard">
 
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3>Your Mission</h3>
+                </div>
+                <div className="underCards">
+                    <div className="card-2 d-flex flex-row">
+                        <div className="logoCard">
+                            <GiRunningShoe />
+                        </div>
+                        <div className="card-text">
+                            <p style={{fontWeight: "bold"}}>5022</p>
+                            <p>Today</p>
+                        </div>
+                    </div>
+                    <div className="card-2 d-flex flex-row">
+                        <div className="logoCard">
+                            <GiRunningShoe />
+                        </div>
+                        <div>
+                            <p>5022</p>
+                            <p>Today</p>
+                        </div>
+                    </div>
+                    <div className="card-2 d-flex flex-row">
+                        <div className="logoCard">
+                            <GiRunningShoe />
+                        </div>
+                        <div>
+                            <p>5022</p>
+                            <p>Today</p>
                         </div>
                     </div>
                 </div>
